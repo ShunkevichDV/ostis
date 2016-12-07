@@ -15,8 +15,10 @@ sudo apt-get update
 fi
 	git clone https://bitbucket.org/iit-ims-team/web-scn-editor
 if  ! [ -d sc-web/ ]; then
- 	echo 'sc-web directory does not exists, i will clone it.'
- 	git clone https://github.com/Ivan-Zhukau/sc-web.git
+ 	echo 'sc-web directory does not exists, i will clone it and install.'
+ 	cd scripts
+ 	./sc_web_install.sh
+ 	cd ../
 	fi
 	cd scripts/
 	cd ../
