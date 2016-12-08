@@ -20,8 +20,6 @@ if  ! [ -d sc-web/ ]; then
  	./sc_web_install.sh
  	cd ../
 	fi
-	cd scripts/
-	cd ../
 
 cd sc-web
 echo "var scWebPath = '">../text1.txt
